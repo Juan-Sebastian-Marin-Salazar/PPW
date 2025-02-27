@@ -2,3 +2,14 @@ body {
     background-color: rgb(35, 10, 45);
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+header {
+    background-color: rgb(59, 23, 73);
+    width: 90%;
+    height: 50%;
+    margin: 5px;
+    border-spacing: 50px;
+    border-radius: 5px;
+}
+h1 {
+    color: aliceblue;
+}
