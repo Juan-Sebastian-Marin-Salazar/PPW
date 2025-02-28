@@ -34,7 +34,8 @@ h1 {
 /*Esto es para el color de las letras de la navbar*/
 .nav-link{
     color: antiquewhite !important;
-    font-family: 'Arial';
+    font-family: 'Helvetica';
+    font-size: large;
 }
 
 
@@ -58,7 +59,7 @@ h1 {
 }
 
 .carrusel{
-    background-color: #D7563F;
+    background-color: #d7462d;
 }
 
 /*Cosas del carrusel del inicio*/
