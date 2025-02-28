@@ -27,9 +27,13 @@ h1 {
     background-color: #1C2942;
 }
 
+.navbar-brand{
+    color: antiquewhite;
+}
+
 /*Esto es para el color de las letras de la navbar*/
 .nav-link{
-    color: #D7563F !important;
+    color: antiquewhite !important;
     font-family: 'Arial';
 }
 
@@ -37,7 +41,7 @@ h1 {
 /*Cosas del carrusel del inicio*/
 
 .carousel-item h3{
-    color: white;
+    color: antiquewhite;
 }
 
 .carousel-item p{
