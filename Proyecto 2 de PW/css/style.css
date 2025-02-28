@@ -65,11 +65,35 @@ h1 {
 /*Cosas del carrusel del inicio*/
 
 
-.especialidad{
+.especialidad {
     background-color: antiquewhite;
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: space-around; /* Distribuye mejor los elementos */
+    padding: 20px;
 }
 
-.especialidad img{
-    padding: 120px;
-    width:50dvw;
+.especialidad img {
+    max-width: 40%; /* Reduce el tamaño de la imagen */
+    height: auto;
+    padding: 20px; /* Menos padding para no generar espacios excesivos */
+    border-radius: 10px; /* Bordes redondeados para mejor estética */
+}
+
+.especialidad p {
+    width: 35%;
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    font-weight: bold;
+    text-align: left; /* Alinea el texto a la izquierda */
+    color: #1C2942; /* Color más oscuro para mejor contraste */
+}
+
+.apartado {
+    background-color: white;
+    padding: 50%;
+}
+
+.apartado p {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    font-weight: bold;
 }
