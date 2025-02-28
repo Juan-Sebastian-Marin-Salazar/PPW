@@ -36,12 +36,12 @@ h1 {
 
 /*Cosas del carrusel del inicio*/
 
-.carousel-item h5{
+.carousel-item h3{
     color: white;
 }
 
 .carousel-item p{
-    color: white;
+    color: #1C2942;
 }
 
 .carousel-indicators button {
@@ -58,3 +58,13 @@ h1 {
 }
 
 /*Cosas del carrusel del inicio*/
+
+
+.especialidad{
+    background-color: antiquewhite;
+}
+
+.especialidad img{
+    padding: 120px;
+    width:50dvw;
+}
