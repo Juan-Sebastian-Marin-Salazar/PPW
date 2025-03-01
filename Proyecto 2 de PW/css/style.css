@@ -278,7 +278,16 @@ h1 {
     height: 100%;
 }
 .text_container {   /*seleccion donde se encuentra el texto para nosotros.html*/
-    background-color: rgb(7, 5, 48); 
+    background-color: antiquewhite; 
+    border-radius: 5px;
+    height: 10%;
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+
+}
+.headline_container {   /*seleccion donde se encuentra el texto para nosotros.html*/
+    background-color: antiquewhite; 
     border-radius: 5px;
     height: 10%;
     width: 98%;
@@ -452,4 +461,73 @@ h1 {
     margin-top: 20px;
     padding-top: 15px;
     border-top: 1px solid white;
+}
+
+
+/* Formulario de contacto */
+.html-contacto header {
+    text-align: center;
+    background-color: #d9534f;
+    color: white;
+    padding: 20px;
+}
+
+.html-contacto p {
+    color: white;
+}
+
+.formulario-empleo, .info-contacto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d9534f;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+.info-contacto p {
+    font-size: 16px;
+}
+
+.oculto {
+    display: none;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
 }
