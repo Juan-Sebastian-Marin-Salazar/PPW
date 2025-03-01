@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(35, 10, 45);
+    background-color: #d7462d;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 header {
@@ -24,13 +24,22 @@ h1 {
 
 /*Esto es para el color de la NavBar de bootstrap*/
 .navbar {
-    background: #1c2943; /* Fondo oscuro semi-transparente */
+    background-color: #FF5733;
     backdrop-filter: blur(8px);
     padding: 10px 30px;
 }
 
+.navbar-brand{
+    color: aliceblue;
+    width: 600px;
+}
+
+.navbar-brand:hover{
+    color: aliceblue;
+}
+
 .navbar-nav .nav-link {
-    margin-right: 20px; /* Espacio a la derecha */
+    margin-right: 25px; /* Espacio a la derecha */
     position: relative;
     text-decoration: none;
     color: antiquewhite;
@@ -47,8 +56,8 @@ h1 {
     left: 0;
     bottom: 0;
     width: 0;
-    height: 3px;
-    background-color: #FF5733;
+    height: 4px;
+    background-color: #ffffff;
     transition: width 0.3s ease;
 }
 
@@ -153,6 +162,62 @@ h1 {
     color: white; /* Color del texto al hacer hover */
 }
 
+
+.text-center{
+    color: antiquewhite;
+}
+
+.gallery-container {
+    display: grid;
+    background-color: #d7462d;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos de las tarjetas */
+.gallery-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Imagen dentro de la tarjeta */
+.gallery-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+.gallery-card:hover {
+    transform: scale(1.05); /* Agranda la tarjeta */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-card:hover img {
+    transform: scale(1.1); /* Zoom en la imagen */
+}
+
+/* Botón sobre la imagen */
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+    opacity: 1; /* Muestra el texto al pasar el mouse */
+}
 
 #wholePage  {
     background-color: #1C2942;
