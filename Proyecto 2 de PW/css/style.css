@@ -23,19 +23,42 @@ h1 {
 
 
 /*Esto es para el color de la NavBar de bootstrap*/
-.navbar{
-    background-color: #1C2942;
+.navbar {
+    background: rgba(20, 20, 20, 0.9); /* Fondo oscuro semi-transparente */
+    backdrop-filter: blur(8px);
+    padding: 10px 30px;
 }
 
-.navbar-brand{
-    color: antiquewhite;
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-/*Esto es para el color de las letras de la navbar*/
-.nav-link{
-    color: antiquewhite !important;
-    font-family: 'Helvetica';
-    font-size: large;
+.nav-link {
+    color: white !important;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #E09F3E !important; /* Efecto dorado */
+}
+
+.btn-reservar {
+    background: #E09F3E;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 8px 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-reservar:hover {
+    background: #d08c34;
 }
 
 
@@ -68,9 +91,10 @@ h1 {
 .especialidad {
     background-color: antiquewhite;
     display: flex;
+    align-items: flex-start;
     align-items: center; /* Alinea verticalmente */
     justify-content: space-around; /* Distribuye mejor los elementos */
-    padding: 20px;
+    padding: 20px;  
 }
 
 .especialidad img {
@@ -84,9 +108,16 @@ h1 {
     width: 35%;
     font-size: 1.5rem; /* Aumenta el tamaño del texto */
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
     text-align: left; /* Alinea el texto a la izquierda */
     color: #1C2942; /* Color más oscuro para mejor contraste */
 }
+
+.especialidad h1{
+    color: black;
+    font-family: 'RocknRoll One', sans-serif;
+    }
+
 
 .apartado {
     background-color: white;
