@@ -34,12 +34,13 @@ h1 {
 .navbar {
     background-color: #FF5733;
     backdrop-filter: blur(8px);
-    padding: 10px 30px;
+    width: 100%;
+    padding: 15px;
 }
 
 .navbar-brand{
     color: aliceblue;
-    width: 600px;
+    width: 5%;
 }
 
 .navbar-brand:hover{
