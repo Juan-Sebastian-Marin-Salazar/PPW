@@ -115,6 +115,7 @@ h1 {
     background-image: url(../img/kanji_texture.png); /* Change URL to texture file name */
     background-repeat: repeat;
     background-position: center center;
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
