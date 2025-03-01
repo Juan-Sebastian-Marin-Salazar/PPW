@@ -105,7 +105,7 @@ h1 {
 }
 
 .especialidad p {
-    width: 35%;
+    width: 50%;
     font-size: 1.5rem; /* Aumenta el tamaño del texto */
     font-weight: bold;
     font-family: 'Inter', sans-serif;
@@ -128,6 +128,24 @@ h1 {
     font-size: 1.5rem; /* Aumenta el tamaño del texto */
     font-weight: bold;
 }
+
+.btn-outline-custom {
+    color: #FFC300; /* Color del texto */
+    font-family: 'Inter', sans-serif; /* Fuente personalizada */
+    border: 2px solid #FFC300; /* Borde sólido de 2px */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+    padding: 10px 20px; /* Espaciado interno (opcional) */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.btn-outline-custom:hover {
+    background-color: #FFC300; /* Color de fondo al hacer hover */
+    border-color: #FFC300; /* Color del borde al hacer hover */
+    color: white; /* Color del texto al hacer hover */
+}
+
+
 #wholePage  {
     background-color: #1C2942;
     height: 100%;
