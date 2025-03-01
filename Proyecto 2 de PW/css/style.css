@@ -24,28 +24,36 @@ h1 {
 
 /*Esto es para el color de la NavBar de bootstrap*/
 .navbar {
-    background: rgba(20, 20, 20, 0.9); /* Fondo oscuro semi-transparente */
+    background: #1c2943; /* Fondo oscuro semi-transparente */
     backdrop-filter: blur(8px);
     padding: 10px 30px;
 }
 
-.navbar-brand {
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Espacio a la derecha */
+    position: relative;
+    text-decoration: none;
+    color: antiquewhite;
+    padding-bottom: 5px;
 }
 
-.nav-link {
-    color: white !important;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    margin: 0 10px;
-    transition: color 0.3s ease-in-out;
+.navbar-nav .nav-link:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento */
 }
 
-.nav-link:hover {
-    color: #E09F3E !important; /* Efecto dorado */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FF5733;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
 }
 
 .btn-reservar {
@@ -130,9 +138,9 @@ h1 {
 }
 
 .btn-outline-custom {
-    color: #FFC300; /* Color del texto */
+    color: #d7462d; /* Color del texto */
     font-family: 'Inter', sans-serif; /* Fuente personalizada */
-    border: 2px solid #FFC300; /* Borde sólido de 2px */
+    border: 2px solid #d7462d; /* Borde sólido de 2px */
     background-color: transparent; /* Fondo transparente */
     border-radius: 8px; /* Bordes redondeados (opcional) */
     padding: 10px 20px; /* Espaciado interno (opcional) */
@@ -140,8 +148,8 @@ h1 {
 }
 
 .btn-outline-custom:hover {
-    background-color: #FFC300; /* Color de fondo al hacer hover */
-    border-color: #FFC300; /* Color del borde al hacer hover */
+    background-color: #d7462d; /* Color de fondo al hacer hover */
+    border-color: #d7462d; /* Color del borde al hacer hover */
     color: white; /* Color del texto al hacer hover */
 }
 
