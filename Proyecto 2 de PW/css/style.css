@@ -16,7 +16,15 @@ h1 {
 
 
 
-
+.carrusel .back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
 
 
 
@@ -81,7 +89,7 @@ h1 {
 }
 
 .carousel-indicators button {
-    filter: invert(1); /* Cambia el color a blanco */
+    background-color: white; /* Cambia el color a blanco */
 }
 
 .carousel-control-prev,
@@ -90,7 +98,7 @@ h1 {
 }
 
 .carrusel{
-    background-color: #d7462d;
+    overflow: hidden;
 }
 
 /*Cosas del carrusel del inicio*/
