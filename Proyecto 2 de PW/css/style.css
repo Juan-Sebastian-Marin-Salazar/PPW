@@ -238,7 +238,16 @@ h1 {
     height: 100%;
 }
 .text_container {   /*seleccion donde se encuentra el texto para nosotros.html*/
-    background-color: rgb(7, 5, 48); 
+    background-color: antiquewhite; 
+    border-radius: 5px;
+    height: 10%;
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+
+}
+.headline_container {   /*seleccion donde se encuentra el texto para nosotros.html*/
+    background-color: antiquewhite; 
     border-radius: 5px;
     height: 10%;
     width: 98%;
