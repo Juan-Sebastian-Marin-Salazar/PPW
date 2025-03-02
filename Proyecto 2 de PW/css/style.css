@@ -29,7 +29,7 @@ h1 {
 
 
 
-
+/*En esta sección se uso flexbox*/
 /*Esto es para el color de la NavBar de bootstrap*/
 .navbar {
     background-color: #FF5733;
@@ -38,13 +38,15 @@ h1 {
     width: 100%;
     padding: 15px;
 }
+/*En esta sección se uso flexbox*/
+
 
 .navbar-toggler {
-    border-color: white; /* Cambia el color del borde del botón */
+    border-color: white;
 }
 
 .navbar-toggler-icon {
-    filter: invert(100%); /* Invierte el color (negro → blanco) */
+    filter: invert(100%); 
 }
 
 .navbar-brand{
@@ -56,17 +58,21 @@ h1 {
     color: aliceblue;
 }
 
+
+/*En esta sección se uso flexbox*/
 .navbar-nav .nav-link {
-    margin-right: 25px; /* Espacio a la derecha */
+    margin-right: 25px;
     position: relative;
     display: flex;
     text-decoration: none;
     color: antiquewhite;
     padding-bottom: 5px;
 }
+/*En esta sección se uso flexbox*/
+
 
 .navbar-nav .nav-link:last-child {
-    margin-right: 0; /* Elimina el margen del último elemento */
+    margin-right: 0;
 }
 
 .navbar-nav .nav-link::after {
@@ -105,11 +111,11 @@ h1 {
 }
 
 .carousel-item p{
-    color: #1C2942;
+    color: #ffffff;
 }
 
 .carousel-indicators button {
-    background-color: white; /* Cambia el color a blanco */
+    background-color: white; 
 }
 
 .carousel-control-prev,
@@ -121,32 +127,34 @@ h1 {
     overflow: hidden;
 }
 
+
 /*Cosas del carrusel del inicio*/
-
-
+/*En esta sección se uso flexbox*/
 .especialidad {
     background-color: antiquewhite;
     display: flex;
     align-items: flex-start;
-    align-items: center; /* Alinea verticalmente */
-    justify-content: space-around; /* Distribuye mejor los elementos */
+    align-items: center;
+    justify-content: space-around; 
     padding: 20px;  
 }
+/*En esta sección se uso flexbox*/
+
 
 .especialidad img {
-    max-width: 40%; /* Reduce el tamaño de la imagen */
+    max-width: 40%;
     height: auto;
-    padding: 20px; /* Menos padding para no generar espacios excesivos */
-    border-radius: 10px; /* Bordes redondeados para mejor estética */
+    padding: 20px; 
+    border-radius: 10px; 
 }
 
 .especialidad p {
     width: 50%;
-    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    font-size: 1.5rem; 
     font-weight: bold;
     font-family: 'Inter', sans-serif;
-    text-align: left; /* Alinea el texto a la izquierda */
-    color: #1C2942; /* Color más oscuro para mejor contraste */
+    text-align: left; 
+    color: #1C2942; 
 }
 
 .especialidad h1{
@@ -166,19 +174,19 @@ h1 {
 }
 
 .btn-outline-custom {
-    color: #d7462d; /* Color del texto */
-    font-family: 'Inter', sans-serif; /* Fuente personalizada */
-    border: 2px solid #d7462d; /* Borde sólido de 2px */
-    background-color: transparent; /* Fondo transparente */
-    border-radius: 8px; /* Bordes redondeados (opcional) */
-    padding: 10px 20px; /* Espaciado interno (opcional) */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+    color: #d7462d;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #d7462d;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .btn-outline-custom:hover {
-    background-color: #d7462d; /* Color de fondo al hacer hover */
-    border-color: #d7462d; /* Color del borde al hacer hover */
-    color: white; /* Color del texto al hacer hover */
+    background-color: #d7462d; 
+    border-color: #d7462d; 
+    color: white; 
 }
 
 
@@ -196,13 +204,29 @@ h1 {
 
 /* Galeria de sucursales */
 
+
+/*En esta sección se uso flexbox*/
+.map{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    height:100vmin;
+}
+/*En esta sección se uso flexbox*/
+
+
+
+/*En esta sección se uso flexbox*/
 .mapa {
-    display: flex; /* Activa Flexbox */
-    align-items: flex-start; /* Alinea los elementos en la parte superior */
-    gap: 20px; /* Espacio entre el mapa y las imágenes */
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px; 
     background-color: antiquewhite;
     width: 100%;
-  }
+    padding: 3%;
+}
+/*En esta sección se uso flexbox*/
+
 
 .sucursal{
     padding-left: 7%;
@@ -210,7 +234,7 @@ h1 {
 }
 
 .containers{
-    max-width: 1200px;
+    max-width: 800px;
     background-color: rgb(236, 223, 204);
     margin: 0 auto;
     display: grid;
@@ -225,6 +249,12 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+
+.box img:hover {
+    transform: scale(1.05);
 }
 
 .box:nth-child(1){
@@ -237,6 +267,7 @@ h1 {
 
 
 /* Tarjetas de la galería */
+/*En esta sección se uso flexbox*/
 .gallery-card {
     position: relative;
     overflow: hidden;
@@ -246,8 +277,9 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+/*En esta sección se uso flexbox*/
 
-/* Imagen dentro de la tarjeta */
+
 .gallery-card img {
     width: 100%;
     height: 350px;
@@ -387,15 +419,6 @@ h1 {
 }
 
 
-
-/* Mapas para sucursales*/
-
-.mapa{
-    padding: 5%;
-    text-align: center;
-}
-
-
 /* Footer */
 .footer {
     background-color: #FF5733;
@@ -404,7 +427,7 @@ h1 {
     text-align: center;
 }
 
-/* Contenedor del Footer */
+
 .footer .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -414,12 +437,12 @@ h1 {
     padding: 0 20px;
 }
 
-/* Secciones del Footer */
+
 .footer-section {
     text-align: left;
 }
 
-/* Títulos del Footer */
+
 .footer-section h4 {
     font-size: 1.2rem;
     margin-bottom: 15px;
@@ -428,7 +451,7 @@ h1 {
     padding-bottom: 5px;
 }
 
-/* Enlaces del Footer */
+
 .footer-section ul {
     list-style: none;
     padding: 0;
