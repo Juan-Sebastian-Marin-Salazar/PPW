@@ -16,7 +16,7 @@ h1 {
 
 
 
-
+/*Navbar*/
 /*En esta sección se uso flexbox*/
 /*Esto es para el color de la NavBar de bootstrap*/
 
@@ -125,10 +125,10 @@ h1 {
     border-color: #d7462d; 
     color: white; 
 }
+/*Navbar*/
 
-
-/*Cosas del carrusel del inicio*/
-
+/*Inicio*/
+/*Carrusel*/
 .carousel-item h3 {
     color: antiquewhite;
 }
@@ -177,6 +177,11 @@ h1 {
     z-index: 1;
 }
 
+/*Carrusel*/
+
+
+/*Tarjeta de especialidad*/
+
 .especialidad {
     background-color: antiquewhite;
     display: flex;
@@ -206,6 +211,10 @@ h1 {
     font-family: 'RocknRoll One', sans-serif;
 }
 
+/*Tarjeta de especialidad*/
+
+
+/*Galeria con tarjetas*/
 .gallery-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -341,9 +350,12 @@ h1 {
     }
 }
 
-/* Galeria de sucursales */
+/*Galeria con tarjetas*/
+/*Inicio*/
 
 
+
+/*Sucursales*/
 /*En esta sección se uso flexbox*/
 .map {
     display: flex;
@@ -469,6 +481,9 @@ h1 {
         margin-bottom: 20px;
     }
 }
+
+/*Sucursales*/
+
 
 
 #wholePage  {
