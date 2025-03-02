@@ -202,7 +202,7 @@ h1 {
 }
 
 .apartado p {
-    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -301,7 +301,7 @@ h1 {
 
 
 /* Tarjetas de la galería */
-/*En esta sección se uso flexbox*/
+/*En esta sección se uso flexbox para la distribucion de los elementos*/
 .gallery-card {
     position: relative;
     overflow: hidden;
@@ -451,6 +451,7 @@ h1 {
     font-size: 400%;
     color: #ffc8c8;
 }
+
 
 
 /* Footer */
