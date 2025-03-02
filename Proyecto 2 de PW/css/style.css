@@ -39,6 +39,14 @@ h1 {
     padding: 15px;
 }
 
+.navbar-toggler {
+    border-color: white; /* Cambia el color del borde del botón */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Invierte el color (negro → blanco) */
+}
+
 .navbar-brand{
     color: aliceblue;
     width: 5%;
@@ -192,16 +200,18 @@ h1 {
     display: flex; /* Activa Flexbox */
     align-items: flex-start; /* Alinea los elementos en la parte superior */
     gap: 20px; /* Espacio entre el mapa y las imágenes */
+    background-color: antiquewhite;
+    width: 100%;
   }
 
 .sucursal{
     padding-left: 7%;
-    color: black;
+    color: white;
 }
 
 .containers{
     max-width: 1200px;
-    background-color: antiquewhite;
+    background-color: rgb(236, 223, 204);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
