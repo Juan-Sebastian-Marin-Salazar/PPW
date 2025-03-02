@@ -268,7 +268,7 @@ h1 {
 
 
 /* Tarjetas de la galería */
-/*En esta sección se uso flexbox*/
+/*En esta sección se uso flexbox para la distribucion de los elementos*/
 .gallery-card {
     position: relative;
     overflow: hidden;
