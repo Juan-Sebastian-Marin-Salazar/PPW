@@ -2,14 +2,14 @@ body {
     background-color: #d7462d;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-header {
+/*header {
     background-color: rgb(59, 23, 73);
     width: 90%;
     height: 50%;
     margin: 5px;
     border-spacing: 50px;
     border-radius: 5px;
-}
+}*/
 h1 {
     color: aliceblue;
 }
@@ -409,14 +409,14 @@ h1 {
     text-align: center;
     margin: 10px 0 5px;
     font-size: 300%;
-    color: #aa6262;
+    color: #ffc8c8;
 }
 
 .titulomenu h1 {
     text-align: center;
     margin: 10px 0 5px;
     font-size: 400%;
-    color: #aa6262;
+    color: #ffc8c8;
 }
 
 
@@ -506,8 +506,13 @@ h1 {
     padding: 20px;
 }
 
+.html-contacto h1 {
+    text-align: center;
+}
+
 .html-contacto p {
     color: white;
+    text-align: center;
 }
 
 .formulario-empleo, .info-contacto {
